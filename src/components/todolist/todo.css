@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+}
+.todo-main .todo-heading{
+    color: white;
+    text-align: center  !important;
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: justify;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.todo-contain  .title-text{
+    /* color: white; */
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: justify;
+    font-weight: 700;
+}
+.todo-center{
+    display: flex;
+    /* padding: 5px; */
+    justify-content: space-around;
+}
+.todo-contain{
+    border: 1px solid #3A3B3C;
+    width: 50%;
+    margin: auto;
+    /* height: 50vh; */
+    margin-top: 100px;
+    background-color: #3A3B3C;
+    padding: 17px;
+    
+}
+.todo-main .MuiOutlinedInput-root{
+border: white;
+background-color: white;
+border-radius: none;
+
+}
+
+.todo-main .MuiOutlinedInput-root:hover{
+   border:white;
+}
+.todo-main  .MuiButtonBase-root{
+    background-color: #3CB371;
+    margin-top: 37px;
+}
+
+.todo-main  .MuiButtonBase-root:hover{
+    background-color: #3CB371;
+    /* margin-top: 44px; */
+}
+.todo-contain .todo-add-complete-btn{
+    display: flex;
+    gap: 6px;
+    margin-left: 21px;
+    /* border-top: 1px solid black; */
+
+}
+.todo-contain .todo-add-complete-btn .active-btn{
+    background-color: white;
+    color:black
+}
+.todo-contain .todo-add-complete-btn .deactive-btn{
+background-color: #3CB371;
+}
+
+.todo-list-main{
+    border: 0px solid rgb(51, 51, 51);
+    margin-top: 16px;
+    margin: 24px 23px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+       display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+   
+}
+.todo-contain .todo-list-main .delete-icon{
+    color:red;
+    cursor: pointer;
+}
+.todo-list-main .done-icon{
+    color: green;
+    cursor: pointer;
+}
+
+.todo-list-main .todolist-title{
+    text-align: start;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #3CB371;
+}
+
+.todo-list-main  .todolist-description{
+    text-align: start;
+    font-family: serif;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
